@@ -1,0 +1,253 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: #f8f8f8;
+  padding: 10px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-top img {
+  height: 50px;
+}
+.header-top .contact-info {
+  text-align: right;
+}
+.header-top .contact-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url("img/laundry 1.jpg") no-repeat center center/cover;
+  height: 600px;
+  color: #0e0d0d;
+  text-align: center;
+}
+.hero .hero-text {
+  width: 50%;
+  padding: 20px;
+}
+.hero .hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.hero .hero-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.hero .hero-text a {
+  background: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.services .service {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+.services .service h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.services .service p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.services .service a {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.about {
+  text-align: center;
+  padding: 50px 0;
+}
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 16px;
+  width: 60%;
+  margin: 0 auto;
+}
+.steps {
+  background: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+}
+.steps h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.steps .step {
+  display: inline-block;
+  width: 22%;
+  margin: 0 1%;
+  text-align: center;
+}
+.steps .step img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.steps .step h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.steps .step p {
+  font-size: 14px;
+}
+.prices {
+  text-align: center;
+  padding: 50px 0;
+}
+.prices h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.prices .price {
+  display: inline-block;
+  width: 22%;
+  margin: 0 1%;
+  text-align: center;
+}
+.prices .price img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.prices .price h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.prices .price p {
+  font-size: 14px;
+}
+.testimonial {
+  background: url("img/laundry 2.jpg") no-repeat center center/cover;
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+}
+.testimonial p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.testimonial h3 {
+  font-size: 24px;
+}
+.why-choose-us {
+  text-align: center;
+  padding: 50px 0;
+}
+.why-choose-us h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.why-choose-us .feature {
+  display: inline-block;
+  width: 22%;
+  margin: 0 1%;
+  text-align: center;
+}
+.why-choose-us .feature img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.why-choose-us .feature h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.why-choose-us .feature p {
+  font-size: 14px;
+}
+.map {
+  padding: 5px;
+  text-align: center;
+}
+.map img {
+  width: 50%;
+  height: 50%;
+}
+footer {
+  background: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.chat-window {
+  max-width: 400px;
+  height: 500px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  padding: 10px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.744);
+}
+.message {
+  margin: 10px 0;
+}
+.user {
+  text-align: right;
+  color: #c64a1c;
+}
+.bot {
+  text-align: left;
+  color: black;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
